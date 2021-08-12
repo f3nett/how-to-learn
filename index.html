@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/vendor/normalize.css" />
-    <link rel="stylesheet" href="/pages/index.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Научиться учиться</title>
   </head>
   <body>
-    <div class="root">
+    <div class="content">
       <header class="header">
         <div class="logo logo_place_header" title="Яндекс Практикум"></div>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
           использовать в своей жизни?
-          <a class="header__link" href="#">Узнать &#8594;</a>
+          <a class="header__link opacity" href="#">Узнать &#8594;</a>
         </p>
         <img
           class="header__main-illustration"
@@ -58,7 +58,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="/images/cards-attention.png"
+                src="./images/cards-attention.png"
                 alt="Книга"
               />
               <h3 class="cards__title">Два вида внимания</h3>
@@ -70,7 +70,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="/images/cards-recall.png"
+                src="./images/cards-recall.png"
                 alt="Статуя"
               />
               <h3 class="cards__title">Recall</h3>
@@ -82,7 +82,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="/images/cards-interliving.png"
+                src="./images/cards-interliving.png"
                 alt="Мост"
               />
               <h3 class="cards__title">Интерливинг</h3>
@@ -94,7 +94,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="/images/cards-question.png"
+                src="./images/cards-question.png"
                 alt="Пустая комната"
               />
               <h3 class="cards__title">Вопросы</h3>
@@ -106,7 +106,7 @@
             <div class="cards__item">
               <img
                 class="cards__image"
-                src="/images/cards-competence.png"
+                src="./images/cards-competence.png"
                 alt="Стопка книг"
               />
               <h3 class="cards__title">Иллюзия компетентности</h3>
@@ -171,7 +171,7 @@
           />
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
-          <a class="feynman__link" href="#">Подробнее &#8594;</a>
+          <a class="feynman__link opacity" href="#">Подробнее &#8594;</a>
         </section>
 
         <section class="digits">
@@ -237,8 +237,14 @@
             <h3 class="khan__quote-author">Джордж Лукас</h3>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic" title="Обложка книги"></div>
-              <a class="khan__buy-link" href="#">Купить книгу &#8594;</a>
+              <img
+                class="khan__book-pic"
+                src="./images/khan-book.jpg"
+                alt="Обложка книги"
+              />
+              <a class="khan__buy-link opacity" href="#"
+                >Купить книгу &#8594;</a
+              >
             </div>
           </div>
         </section>
@@ -308,6 +314,27 @@
           <p class="section-subtitle">
             Больше материалов о техниках и лайфхаках обучения
           </p>
+          <div class="resources__logo-zone">
+            <img
+              class="resources__logo"
+              src="./images/logo/resources-arzamas.svg"
+              alt="Arzamas"
+            /><img
+              class="resources__logo"
+              src="./images/logo/resources-n1.svg"
+              alt="N+1"
+            />
+            <img
+              class="resources__logo"
+              src="./images/logo/resources-strelka.svg"
+              alt="STRELKA"
+            />
+            <img
+              class="resources__logo"
+              src="./images/logo/resources-polka.svg"
+              alt="ПОЛКА"
+            />
+          </div>
         </section>
       </main>
 
@@ -321,9 +348,15 @@
             <h2 class="footer__column-heading">О Практикуме</h2>
             <nav>
               <ul class="footer__column-links">
-                <li><a class="footer__column-link" href="#">Главная</a></li>
-                <li><a class="footer__column-link" href="#">Концепция</a></li>
-                <li><a class="footer__column-link" href="#">Наставники</a></li>
+                <li>
+                  <a class="footer__column-link opacity" href="#">Главная</a>
+                </li>
+                <li>
+                  <a class="footer__column-link opacity" href="#">Концепция</a>
+                </li>
+                <li>
+                  <a class="footer__column-link opacity" href="#">Наставники</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -332,7 +365,7 @@
             <nav>
               <ul class="footer__column-links">
                 <li>
-                  <a class="footer__column-link" href="#">
+                  <a class="footer__column-link opacity" href="#">
                     <img
                       class="footer__social-icon"
                       src="./images/logo/facebook_color_white.svg"
@@ -341,7 +374,7 @@
                   </a>
                 </li>
                 <li>
-                  <a class="footer__column-link" href="#">
+                  <a class="footer__column-link opacity" href="#">
                     <img
                       class="footer__social-icon"
                       src="./images/logo/vk_color_white.svg"
@@ -350,7 +383,7 @@
                   </a>
                 </li>
                 <li>
-                  <a class="footer__column-link" href="#">
+                  <a class="footer__column-link opacity" href="#">
                     <img
                       class="footer__social-icon"
                       src="./images/logo/instagram_color_white.svg"
