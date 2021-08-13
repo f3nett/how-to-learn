@@ -8,8 +8,8 @@
    Практики обучения, grid из пяти элементов по числу практик. Используются стили _.cards_
 3. **video**
    Ссылки на yputube видео TED Talks
-   - [video_kaufman]: https://www.youtube.com/watch?v=arj7oStGLkU "Inside the mind of a master procrastinator | Tim Urban"
-   - [video_urban]: https://www.youtube.com/watch?v=5MgBikgcWnY "The first 20 hours -- how to learn anything | Josh Kaufman"
+   - [Inside the mind of a master procrastinator | Tim Urban] (https://www.youtube.com/watch?v=arj7oStGLkU)
+   - [The first 20 hours -- how to learn anything | Josh Kaufman] (https://www.youtube.com/watch?v=5MgBikgcWnY)
 4. **oakley**
    Текстовый блок с историей Барбары Оакли.
    Используются блок общих стилей _.two-columns_, аналогично блоку description
